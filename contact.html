@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cotton Killa — Contact</title>
+</head>
+<img src="./assets/WhatsApp Image 2025-08-23 at 02.53.47_f70767c3.jpg" alt="Cotton Killa Logo" width="500">>
+<body>
+  <!-- HEADER & NAVIGATION -->
+  <header>
+    <h1>Contact Us</h1>
+    <nav aria-label="Primary">
+      <a href="./index.html">Home</a> |
+      <a href="./about.html">About Us</a> |
+      <a href="./projects.html">Projects</a> |
+      <a href="contact.html" aria-current="page">Contact</a>
+    </nav>
+  </header>
+
+  <!-- MAIN: info, two locations (maps), enquiry form -->
+  <main>
+    <section>
+      <h2>Get in Touch</h2>
+      <p>Email: <a href="mailto:info@cottonkilla.com">info@cottonkilla.com</a></p>
+      <p>Phone: +27 11 123 4567</p>
+    </section>
+
+    <section>
+      <h2>Our Locations</h2>
+
+      <article>
+        <h3>Johannesburg Store</h3>
+        <p>123 Maboneng Precinct, Johannesburg, South Africa</p>
+        <!-- Map embed needs internet to load; HTML-only is okay for Part 1 -->
+        <iframe title="Map: Johannesburg"
+                src="https://maps.google.com/maps?q=Johannesburg&t=&z=12&ie=UTF8&iwloc=&output=embed"
+                width="400" height="300" style="border:0;" loading="lazy"></iframe>
+      </article>
+
+      <article>
+        <h3>Pretoria Pickup</h3>
+        <p>45 Hatfield Street, Pretoria, South Africa</p>
+        <iframe title="Map: Pretoria"
+                src="https://maps.google.com/maps?q=Pretoria&t=&z=12&ie=UTF8&iwloc=&output=embed"
+                width="400" height="300" style="border:0;" loading="lazy"></iframe>
+      </article>
+    </section>
+
+    <section>
+      <h2>Send a Message</h2>
+      <!-- basic HTML attributes -->
+      <form action="#" method="get">
+        <p>
+          <label for="name">Full Name</label><br>
+          <input id="name" name="name" type="text" required>
+        </p>
+        <p>
+          <label for="email">Email</label><br>
+          <input id="email" name="email" type="email" required>
+        </p>
+        <p>
+          <label for="message">Message</label><br>
+          <textarea id="message" name="message" rows="6" required></textarea>
+        </p>
+        <p><button type="submit">Send</button></p>
+      </form>
+    </section>
+  </main>
+
+  <!-- FOOTER/COPYRIGHT -->
+  <footer>
+    <p>&copy; 2025 Cotton Killa. All rights reserved.</p>
+  </footer>
+</body>
+</html>
